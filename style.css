@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+}
+.logo-container p{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.logo-container img{
+    height: 22px;
+    width: 45px;
+}
+.logo-container span{
+    color: rgba(255, 66, 165, 1);
+    
+}
+.menu-items-container{
+    display: flex;
+    align-items:center ;
+    margin-left: 90px;
+}
+.menu-items-container a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 12px;
+}
+.menu-items-container img{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(11, 2, 35, 0.10);
+}
+.banner-container{
+    height: 70vh;
+    background: #FFF;
+    display: flex;
+}
+.banner-title{
+    width: 50%;
+    background-image: url("./images/Group\ 14.png");
+    background-size: cover;
+}
+.banner-text button{
+    margin-top: 10px
+}
+.banner-text{
+    margin: 80px 100px 100px 100px;
+}
+.banner-text h2{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #0B0223;
+}
+.banner-text h1{
+    margin-left: -2px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text p{
+    color: #534C64;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.btn-sign{
+    background-color: #FF42A5;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-go{
+    background-color: #4EC5F7;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fun-video{
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+.fun-video h2{
+    margin: 40px auto 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.fun-video span{
+    background: -webkit-linear-gradient(#F948B2, #8758F1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fun-video p{
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #534C64;
+}.card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-img{
+    width: 200px;
+    height: 100px;
+}
+.card-img{
+    position: relative;
+    /* width: 200px;
+    height: 200px; */
+    /* float: left;  */
+    margin-right: 10px;
+}
+
+.card-img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 70px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.card-img:hover img{
+    cursor: pointer;
+    color: #FF42A5;
+}
+
+.card-img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+    
+}
+.play-online{
+    /* width: 400px;
+    height: 300px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bigger-img img{
+    height: 400px;
+    width: 350px;
+}
+.title-section span{
+    background: -webkit-linear-gradient(#F948B2, #8758F1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title-section p{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 400;
+}
+.title-section h2, p{
+    margin-top: 10px;
+}
+.title-section h2{
+    font-size: 30px;
+}
+.smaller-img img{
+    width: 150px;
+    height: 170px;
+    /* border-radius: 20px; */
+}
+.smaller-img{
+    text-align: end;
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+}
+.play-online{
+    margin-top: 100px;
+}
+
+
+/* responsiveness */
+
+ @media screen and (max-width: 425px) {
+    nav{
+        flex-wrap: wrap;
+        box-shadow: none;
+        margin-top: 40px;
+        flex-direction: column; 
+    }
+    .menu-items-container{
+        flex-direction: column;
+        text-align: center;
+        margin-right: 75px;
+    }
+    .menu-items-container a{
+        margin-top: 18px;
+    }
+
+}
