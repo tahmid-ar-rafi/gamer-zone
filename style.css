@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: work sans;
 }
 
@@ -17,7 +17,6 @@ nav{
 .logo-container{
     display: flex;
     align-items: center;
-    /* width: 50%; */
 }
 .logo-container p{
     font-size: 40px;
@@ -28,6 +27,7 @@ nav{
     height: 35px;
     width: 70px;
     margin-top: -7px;
+    margin-left: 50px;
 }
 .logo-container span{
     color: rgba(255, 66, 165, 1);
@@ -58,11 +58,13 @@ nav{
     font-size: 18px;
     background-color: rgba(11, 2, 35, 0.10);
 }
+.follow-btn:hover{
+    cursor: pointer;
+}
 .banner-container{
     height: 70vh;
     background: #FFF;
     display: flex;
-    margin-top: 5px;
 }
 .banner-title{
     width: 50%;
@@ -76,7 +78,7 @@ nav{
     margin: 80px 100px 100px 200px;
 }
 .banner-text h2{
-    font-size: 25px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -84,8 +86,8 @@ nav{
     color: #0B0223;
 }
 .banner-text h1{
-    margin-left: -2px;
-    font-size: 50px;
+    margin-left: -5px;
+    font-size: 90px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -96,7 +98,7 @@ nav{
 }
 .banner-text p{
     color: #534C64;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 8px;
 }
@@ -106,7 +108,7 @@ nav{
     border: none;
     padding: 10px 15px;
     border-radius: 50px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
 }
 .btn-go{
@@ -115,7 +117,7 @@ nav{
     border: none;
     padding: 10px 15px;
     border-radius: 50px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
     margin-left: 10px;
 }
