@@ -27,7 +27,7 @@ nav{
 .logo-container img{
     height: 35px;
     width: 70px;
-    margin-top: 10px;
+    margin-top: -7px;
 }
 .logo-container span{
     color: rgba(255, 66, 165, 1);
@@ -42,14 +42,14 @@ nav{
     text-decoration: none;
     color: #3C354F;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 18px;
 }
 .menu-items-container img{
     margin-left: 10px;
     width: 25px;
     height: 25px;
 }
-.btn{
+.follow-btn{
     display: flex;
     align-items: center;
     border: none;
@@ -150,6 +150,9 @@ nav{
     justify-content: center;
     width: 1000px;
     margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+    color: #534C64;
 }
 
 .card-img img{
@@ -207,13 +210,62 @@ nav{
     color: #534C64;
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 190px;
 }
 .title-section h2, p{
-    margin-top: 10px;
-    margin-right: 30px;
+    margin-bottom: 10px;
 }
 .title-section h2{
     font-size: 30px;
+}
+
+.game-category{
+    height: 45vh;
+    border: 1px solid #eb058f0c;
+    /* margin-top: -104px; */
+    background: #eb058f0c;
+    border: h;
+}
+
+.game-category button{
+    border-radius: 50px;
+    width: 190px;
+    background: #FFF;
+    border: none;
+    box-shadow: 100px;
+    color: #0B0223;
+    font-weight: 600;
+}
+
+.game-category img{
+    height: 50px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
+.line-one{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.line-two{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
 }
 
 .footer{
@@ -225,7 +277,7 @@ nav{
     height: 50px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .footer .logo-container p{
     color: #FFF;
@@ -252,10 +304,16 @@ nav{
 .social-icon{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    
     margin-top: 50px;
 }
+.social-icon a{
+    text-decoration: none;
+}
 
+.social-icon img{
+    margin: 0px 10px 0px;
+}
 .policy-line{
     margin-top: 50px;
     text-align: center;
