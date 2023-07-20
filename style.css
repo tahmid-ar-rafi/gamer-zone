@@ -54,12 +54,15 @@ nav{
     align-items: center;
     border: none;
     border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
     background-color: rgba(11, 2, 35, 0.10);
 }
 .banner-container{
     height: 70vh;
     background: #FFF;
     display: flex;
+    margin-top: 5px;
 }
 .banner-title{
     width: 50%;
